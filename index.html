@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test Page</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+      	<img class="title-logo" src="image\logo.jpg" alt="Udacity logo">
+      </div>
+      <div class="col-md-6 text-right text-uppercase">
+      	<h1 class="title-super text-thin">JANE DOETTE</h1>
+      	<h4>FRONT-END NINJA</h4>
+      </div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<hr>
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<img class="img-responsive" src="image\meta.jpg" alt="Main meta image!">
+    	</div>
+    </div>
+    <div class="row">
+    	<div class="col-md-12">
+    		<h2 class="text-muted">Featured Work</h2>
+    	</div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+      	<img class="img-responsive" src="image\one.jpg">
+      	<h3 class="text-uppercase">APPIFY</h3>
+      </div>
+      <div class="col-md-4">
+      	<img class="img-responsive" src="image\two.jpg">
+      	<h3 class="text-uppercase">SUNFLOWER</h3>
+      </div>
+      <div class="col-md-4">
+      	<img class="img-responsive" src="image\three.jpg" data-toggle="modal" data-target="#myModal">
+      	<h3 class="text-uppercase">BOKEH</h3>
+      </div>
+    </div>
+  </div>
+ <!-- Button trigger modal 
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>-->
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+  <div class="modal-body">
+      <img class="img-responsive" src="image/three.jpg">
+        This was my first project in this class. I learned a lot about HTML and CSS.
+  </div>
+  <div class="modal-footer">
+  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
